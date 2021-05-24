@@ -120,8 +120,8 @@
                 <td><?php echo $st1->cname;?></td>
                 <td><?php echo $st1->cmobile;?></td>
 
-                <td><a href="/ViewUserBooking?aid=<?php echo $st1->c_id;?>">Accept</a></td>
-                <td><a href="/ViewUserBooking?rid=<?php echo $st1->c_id;?>">Reject</a></td>
+                <td><a class="btn btn-success" href="/ViewUserBooking?aid=<?php echo $st1->c_id;?>">Accept</a></td>
+                <td><a class="btn btn-danger" href="/ViewUserBooking?rid=<?php echo $st1->c_id;?>">Reject</a></td>
                
 
 
