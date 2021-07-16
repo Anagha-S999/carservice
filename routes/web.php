@@ -91,7 +91,7 @@ Route::get('/AcceptedBooking',[acceptcontroller::class,'Viewbook']);
 Route::get('/viewallcustomers',[userlistcontroller::class,'User']);
 
 Route::get('/viewrequest',[mybookingcontroller::class,'Mybooking']);
-
+Route::get('/viewrequestStatus',[mybookingcontroller::class,'MybookingStatus']);
 
 Route::get('/addstaff', function () {
     return view('/addstaff');

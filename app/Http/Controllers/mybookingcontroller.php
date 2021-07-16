@@ -21,5 +21,18 @@ class mybookingcontroller extends Controller
        return view('/viewrequest',['ci'=>$ci,'bb'=>$sta1]);
 
     }
+    public function MybookingStatus(Request $req,$ci=null)
+    {
+       
+        $ci=$req->session()->get('Cid');
+
+        $sta1=mybookingmodel::GridView($ci);
+   
+   
+
+       
+       return view('/viewrequestStatus',['ci'=>$ci,'bb'=>$sta1]);
+
+    }
 }
 

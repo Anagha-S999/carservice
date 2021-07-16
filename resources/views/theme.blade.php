@@ -34,7 +34,8 @@
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <li><a class="dropdown-item" href="/ViewAllServices">Search Service and Send Request</a></li>
-            <li><a class="dropdown-item" href="/viewrequest">View Service Request</a></li>
+            <li><a class="dropdown-item" href="/viewrequest">View Booking Report</a></li>
+            <li><a class="dropdown-item" href="/viewrequestStatus">View Service Request Status</a></li>
           </ul>
         </li>
         <li class="nav-item">
